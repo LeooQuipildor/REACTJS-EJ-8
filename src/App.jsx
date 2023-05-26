@@ -1,5 +1,4 @@
 import { useState } from 'react'
-import Titulo from './components/Titulo'
 import './App.css'
 
 function App() {
@@ -7,7 +6,7 @@ function App() {
 
   return (
     <>
-      <Titulo></Titulo>
+      
     </>
   )
 }
