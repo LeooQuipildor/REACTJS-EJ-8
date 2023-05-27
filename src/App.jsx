@@ -7,7 +7,7 @@ function App() {
   return (
     <>
       <Container className='mainPage'>
-        <h1 className='text-center'>Formulario</h1>
+        <h1 className='text-center display-1 text-light'>Formulario</h1>
         <hr className='text-light' />
         <div className='cardForm'>
         <Formulario></Formulario>

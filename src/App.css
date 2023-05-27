@@ -2,7 +2,7 @@
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+  background-image: linear-gradient(to right top, #051937, #41205f, #90006a, #d7004e, #ff0000);
 }
 
 .mainPage{
@@ -12,7 +12,7 @@
 .cardForm{
   background-color: rgba(255, 255, 255, 0.367);
   border-radius: 10px;
-  margin: 20px 200px 20px 200px;
+  margin: 20px 400px 20px 400px;
 }
 
 @media (min-width: 350px) and (max-width: 768px) {
@@ -20,5 +20,13 @@
     background-color: rgba(255, 255, 255, 0.367);
     border-radius: 10px;
     margin: 20px 50px 20px 50px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+  .cardForm{
+    background-color: rgba(255, 255, 255, 0.367);
+    border-radius: 10px;
+    margin: 20px 200px 20px 200px;
   }
 }
